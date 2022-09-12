@@ -220,9 +220,9 @@
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Marina Jevtic
+                        <p>
                         
-                        <br>Design: PlanerPutovanja</p>
+                        <br>PlanerPutovanja</p>
                     </div>
                 </div>
             </div>
