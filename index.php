@@ -22,7 +22,8 @@
 
     </head>
     
-    <body>
+    <body style="background-color: #EBECF0">
+
     
     <div id="preloader">
         <div class="jumper">
@@ -32,7 +33,7 @@
         </div>
     </div>
 
-    <header class="header-area header-sticky" style="background-color: SkyBlue;">
+    <header class="header-area header-sticky" style="background-image: url(11.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -79,7 +80,7 @@
                 </div>
                 <br/><br/>
                 <div class="col-lg-12" style="padding-top: 10px">
-                    <button class="btn btn-primary" onclick="pretraga()">Pronadji planove</button>
+                    <button class="btn btn-primary" style="background-color: #FD6555" onclick="pretraga()">Pronadji planove</button>
                 </div>
             </div>
             <div class="row" id="rezultat" style="padding-top: 10px">
@@ -107,7 +108,7 @@
 
                     </select>
                     <hr/>
-                    <button class="btn btn-primary" onclick="unesiDestinaciju()">Unesi destinaciju</button>
+                    <button class="btn btn-primary" style="background-color: #FD6555" onclick="unesiDestinaciju()">Unesi destinaciju</button>
                 </div>
                 <div class="section-heading">
                     <h2 id="porukaUnosDestinacije"></h2>
@@ -137,7 +138,7 @@
                     <label for="cenaUnos">Cena</label>
                     <input type="number" class="form-control" id="cenaUnos">
                     <hr/>
-                    <button class="btn btn-primary" onclick="unesiPlan()">Unesi plan</button>
+                    <button class="btn btn-primary" style="background-color: #FD6555" onclick="unesiPlan()">Unesi plan</button>
                 </div>
                 <div class="section-heading">
                     <h2 id="porukaUnosPlana"></h2>
@@ -165,7 +166,7 @@
                     <label for="cenaIzmena">Cena</label>
                     <input type="number" class="form-control" id="cenaIzmena">
                     <hr/>
-                    <button class="btn btn-primary" onclick="izmeniCenuPlana()">Izmeni cenu plana</button>
+                    <button class="btn btn-primary" style="background-color: #FD6555" onclick="izmeniCenuPlana()">Izmeni cenu plana</button>
                 </div>
                 <div class="section-heading">
                     <h2 id="porukaIzmenaPlana"></h2>
@@ -191,7 +192,7 @@
 
                     </select>
                     <hr/>
-                    <button class="btn btn-primary" onclick="obrisiPlan()">Obrisi plan</button>
+                    <button class="btn btn-primary" style="background-color: #FD6555" onclick="obrisiPlan()">Obrisi plan</button>
                 </div>
                 <div class="section-heading">
                     <h2 id="porukaBrisanjePlana"></h2>
@@ -220,9 +221,9 @@
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>
+                        <p>© Copyright Marina Jevtic
                         
-                        <br>PlanerPutovanja</p>
+                        <br>Design: PlanerPutovanja</p>
                     </div>
                 </div>
             </div>
